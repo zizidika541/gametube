@@ -1,0 +1,21 @@
+runtime: python39
+
+handlers:
+  # Serve CSS files stylefrontend.css and also JS files scriptfrontend.js in root
+
+  - url: /img
+    static_dir: img
+
+  - url: /stylefrontend.css
+    static_files: stylefrontend.css
+    upload: stylefrontend.css
+
+  - url: /scriptfrontend.js
+    static_files: scriptrontend.js
+    upload: scriptfrontend.js
+
+
+  # Serve indexfrontend.html as the main page
+  - url: /.*
+    static_files: indexfrontend.html
+    upload: indexfrontend.html
