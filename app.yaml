@@ -19,3 +19,38 @@ handlers:
   - url: /.*
     static_files: indexfrontend.html
     upload: indexfrontend.html
+
+  # Serve ml.html as the ml page
+  - url: /ml.html
+    static_files: ml.html
+    upload: ml.html
+
+  # Serve cod.html as the cod page
+  - url: /cod.html
+    static_files: cod.html
+    upload: cod.html
+
+  # Serve indexfrontend.html as the main page
+  - url: /.*
+    static_files: indexfrontend.html
+    upload: indexfrontend.html
+
+  # Serve genshin.html as the genshin page
+  - url: /genshin
+    static_files: genshin.html
+    upload: genshin.html
+
+  # Serve minecraft.html as the minecraft page
+  - url: /minecraft.html
+    static_files: minecraft.html
+    upload: minecraft.html
+
+  # Serve coc.html as the coc page
+  - url: /coc.html
+    static_files: coc.html
+    upload: coc.html
+
+  # Serve roblox.html as the roblox page
+  - url: /roblox.html
+    static_files: roblox.html
+    upload: roblox.html
